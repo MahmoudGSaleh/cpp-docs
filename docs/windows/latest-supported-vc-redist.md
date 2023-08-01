@@ -35,14 +35,11 @@ Unlike older versions of Visual Studio, which have infrequent redist updates, th
 
 Download other versions, including for long term servicing release channels (LTSC), from [my.visualstudio.com](https://my.visualstudio.com/).
 
-> [!NOTE]
-> The Visual C++ Redistributable for Visual Studio 2015-2022 does not have separate packages for each language. It contains EULAs for all supported languages.
-
-
-> [!NOTE]
-> Some of the downloads that are mentioned in this article are currently available on [my.visualstudio.com](https://my.visualstudio.com/). Make sure to log in by using a Visual Studio Subscription account so that you can access the download links. If you're asked for credentials, use your existing Visual Studio subscription account. Or, create a free account by selecting the link in **No account? Create one!**
-
 ### Notes
+
+- The Visual C++ Redistributable for Visual Studio 2015-2022 does not have separate packages for each language. It contains EULAs for all supported languages.
+
+- Some of the downloads that are mentioned in this article are currently available on [my.visualstudio.com](https://my.visualstudio.com/). Make sure to log in by using a Visual Studio Subscription account so that you can access the download links. If you're asked for credentials, use your existing Visual Studio subscription account. Or, create a free account by selecting the link in **No account? Create one!**
 
 - Visual Studio versions since Visual Studio 2015 share the same Redistributable files. For example, any apps built by the Visual Studio 2015, 2017, 2019, or 2022 toolsets can use the latest Microsoft Visual C++ Redistributable. However, the version of the Microsoft Visual C++ Redistributable installed on the machine must be the same or higher than the version of the Visual C++ toolset used to create your application. For more information about which version of the Redistributable to install, see [Determining which DLLs to redistribute](determining-which-dlls-to-redistribute.md). For more information about binary compatibility, see [C++ binary compatibility between Visual Studio versions](../porting/binary-compat-2015-2017.md).
 
@@ -70,7 +67,7 @@ You can download other versions and languages from [Update for Visual C++ 2013 R
 > [!NOTE]
 > Visual Studio 2012 [reached end of extended support on Jan 10, 2023](/lifecycle/products/visual-studio-2012)
 
-These links download the latest supported en-US Microsoft Visual C++ Redistributable packages for Visual Studio 2012 Update 4. You can download other versions and languages from [Microsoft Visual C++ Redistributable Packages for Visual Studio 2012 Update 4](https://www.microsoft.com/download/details.aspx?id=30679) or from [my.visualstudio.com](https://my.visualstudio.com/Downloads?pid=1452).
+These links download the latest available en-US Microsoft Visual C++ Redistributable packages for Visual Studio 2012 Update 4. You can download other versions and languages from [Microsoft Visual C++ Redistributable Packages for Visual Studio 2012 Update 4](https://www.microsoft.com/download/details.aspx?id=30679) or from [my.visualstudio.com](https://my.visualstudio.com/Downloads?pid=1452).
 
 | Architecture | Version | Link |
 |--|:-:|-:|
